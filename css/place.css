@@ -1,0 +1,95 @@
+#mainplace {
+        background-color: #dff5f5;
+        height: 1200px;
+        /* padding: 1px; */
+}
+
+
+
+
+#blocklistpopylar {
+    float: left;
+    margin-top: 60px;
+    margin-left: 10%;
+    width: 30%;
+    text-align: center;
+}
+
+#popularlist {
+    display: inline-block;
+    text-align: left;
+    line-height: 80px;
+    font-size: 2rem;
+}
+
+
+#recomendation {
+    float: right;
+    margin-top: 60px;
+    margin-right: 10%;
+    width: 30%;
+    text-align: center;
+}
+
+#reclist {
+    list-style-type: circle;
+    display: inline-block;
+    text-align: left;
+    line-height: 80px;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+#minih {
+    line-height: normal;
+    margin-top: 15px;
+}
+
+#reclist .chin {
+    list-style-type: square;
+    margin-left: 50px;
+    font-size: 1.6rem;
+    line-height: 35px;
+}
+
+#tobord {
+    height: 600px;
+    border-bottom: 5px solid rgb(180, 243, 222);
+}
+
+table {
+    color: white;
+    font-size: 1.5rem;
+    background-image: url('https://avatanplus.com/files/resources/original/57c300a43f2a3156d1ba81a3.jpg');
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 60px;
+    border: 3px, solid, black;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+td {
+    background-color: #dff5f55d;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+th {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.krit {
+    background-color: rgba(187, 248, 228, 0.185);
+}
+
+th a {
+    color: white;
+    text-decoration: none;
+}
+td a:visited {
+    color: white;
+    text-decoration: none;
+}
