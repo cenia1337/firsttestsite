@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Проверка на робота</title>
+</head>
+<body>
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <a name="start">
+        <div id="nach" ><a href="#start">Перейти в начало</a></div>
+    
+        <div id="navig">
+            <div id="headtext">Лучшее путешествие</div>
+        <ul id="nav" >
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="place.html">Места</a></li>
+            <li><a href="order.html">оформить заказ</li>
+            <li class="tecb"><a class="tec" href="robot.html">Проверка на робота</a></li>
+            <li><a href="passport.html">паспорт</a></li>
+        </ul> 
+    </div>
+
+    <div id="glush" style="padding: 1px;">
+        <h1 style="margin: 50px; margin-left: 150px;">Решение задачи</h1>
+        <p style="font-size: 1.5rem; margin-left: 130px; padding: 10px;">Дано вещественное число A. Вычислить x = 0 при a > 100; x = a при a < 61, в противном случае x = a**4</p>
+        <p style="font-size: 1.5rem; margin-left: 130px; padding: 10px;">Если A > 100 Тогда x = 0 <br> Если 61 <= A <= 100  Тогда  x = A<sup>4</sup><br>Если A < 61 Тогда x = A</p>
+        <label for="inputA" style="font-size: 2rem; margin-left: 100px; margin-top: 50px;">Введите значение A:</label>
+        <input style="font-size: 2rem;" type="number" id="inputA" placeholder="Введите число">
+
+         <p><button style="font-size: 2rem; margin-left: 380px; margin-top: 20px;" id="calculateA">Вычислить X</button></p>
+
+         <div style="margin-left: 300px; margin-top: 50px;" class="result">
+                <h2>Результат:</h2>
+                <div style="font-size: 3rem;" id="outputX" class="output">X = </div>
+        </div>
+
+
+    </div>
+
+    <div id="foot">
+        <p class="flink"><a href="https://t.me/Cenia1337" target="_blank">Связаться с нами</a></p>
+        <p class="flink"><a href="https://www.hse.ru/en/" target="_blank">Наши партнеры</a></p>
+    </div>
+ <script src="js/robot.js"></script>
+</body>
+</html>
